@@ -18,6 +18,8 @@ class Query(BaseModel):
     enableMix: bool = False
     newEngine: bool = False
     engineType: str = ""
+    mode: str = ""
+    enableImage: bool = True
 
 
 class Topic(BaseModel):
