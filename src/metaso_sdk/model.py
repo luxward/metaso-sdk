@@ -20,6 +20,7 @@ class Query(BaseModel):
     engineType: str = ""
     mode: str = ""
     enableImage: bool = True
+    model: str = ""
 
 
 class Topic(BaseModel):
